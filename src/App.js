@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css'
+import ServiceList from "./Components/ServiseList";
 // import logo from "./logo.svg"
 
 
 function App() {
   return (
-      <div className="wrapper">
-
-          <div className="item1">Item 1</div>
-      </div>
+      <>
+          <ServiceList></ServiceList>
+      </>
   );
 }
 
