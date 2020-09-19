@@ -1,0 +1,8 @@
+.button-placeholder-gray{
+    color: gray;
+    border-radius: 30%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    /*grid-area: a;*/
+}
