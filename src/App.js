@@ -17,6 +17,8 @@ import {
 
 
 import WidgetPage from "./Components/WidgetPage";
+import SaveMoneyPage from "./Components/SaveMoneyPage";
+import MoviesPage from "./Components/MoviesPage";
 
 
 library.add(faMicrophone, faSearch, faCircle, faQuestionCircle)
@@ -33,8 +35,20 @@ function App() {
                 <div className="phone-wrapper">
                     <Router>
                         <Switch>
-                            <Route path="/">
+                            <Route exact path="/">
                                 <WidgetPage/>
+                            </Route>
+                            <Route exact path={"/save_money"}>
+                                <SaveMoneyPage/>
+                            </Route>
+                            <Route exact path={"/movies"}>
+                                <MoviesPage/>
+                            </Route>
+                            <Route exact path={"/books"}>
+
+                            </Route>
+                            <Route exact path={"/articles"}>
+
                             </Route>
                             {/*more routers here + TODO 404 page*/}
                         </Switch>
