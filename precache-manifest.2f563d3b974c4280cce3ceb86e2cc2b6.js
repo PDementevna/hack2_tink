@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "029d38fb963d1c3aa31defa32e3462d5",
+    "revision": "b599f114467b7db404103fbbd3129f5d",
     "url": "/hack2_tink/index.html"
   },
   {
-    "revision": "b6f4547418cb0df67314",
-    "url": "/hack2_tink/static/css/main.b8932056.chunk.css"
+    "revision": "ed0db1d9420be1aa112e",
+    "url": "/hack2_tink/static/css/main.68c46d12.chunk.css"
   },
   {
-    "revision": "9259d0a4cfde48ceb254",
-    "url": "/hack2_tink/static/js/2.218d0dfe.chunk.js"
+    "revision": "f79354332558c9eb0afa",
+    "url": "/hack2_tink/static/js/2.ce78fa9f.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/hack2_tink/static/js/2.218d0dfe.chunk.js.LICENSE.txt"
+    "url": "/hack2_tink/static/js/2.ce78fa9f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b6f4547418cb0df67314",
-    "url": "/hack2_tink/static/js/main.9b21e765.chunk.js"
+    "revision": "ed0db1d9420be1aa112e",
+    "url": "/hack2_tink/static/js/main.9fcd89de.chunk.js"
   },
   {
     "revision": "9c6120a3701e07a6af4d",
