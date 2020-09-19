@@ -9,54 +9,73 @@ import {
 import phone from "./IPhone_X_vector.svg"
 import {library} from '@fortawesome/fontawesome-svg-core'
 import {
-    faCircle,
+    faCircle, faDollarSign, faEuroSign,
     faMicrophone,
-    faQuestionCircle,
+    faQuestionCircle, faRubleSign,
     faSearch
 } from '@fortawesome/free-solid-svg-icons'
 
 
 import WidgetPage from "./Components/WidgetPage";
 import SaveMoneyPage from "./Components/SaveMoneyPage";
+import Page404 from "./Components/Page404";
 import MoviesPage from "./Components/MoviesPage";
 
 
-library.add(faMicrophone, faSearch, faCircle, faQuestionCircle)
-
-// const categories = ['Кино', 'Рестораны', 'Концерты', 'Путешествия', 'Топливо', 'Товары', 'Спорт', 'Страхование', 'Театр'];
-// <ServiceList categories={categories}></ServiceList>
+library.add(faMicrophone, faSearch, faCircle, faQuestionCircle, faDollarSign, faEuroSign, faRubleSign)
 
 
-function App() {
-    return (
-        <div className="wrapper">
-            <div className="sub-wrapper">
-                <img src={phone} className={"image-back"} alt={"mobile"}/>
-                <div className="phone-wrapper">
-                    <Router>
-                        <Switch>
-                            <Route exact path="/">
-                                <WidgetPage/>
-                            </Route>
-                            <Route exact path={"/save_money"}>
-                                <SaveMoneyPage/>
-                            </Route>
-                            <Route exact path={"/movies"}>
-                                <MoviesPage/>
-                            </Route>
-                            <Route exact path={"/books"}>
+export default class App extends React.Component {
+    constructor(props) {
+        super(props);
 
-                            </Route>
-                            <Route exact path={"/articles"}>
+        this.state = {
+            initial_path: ""
+        };
+    }
 
-                            </Route>
-                            {/*more routers here + TODO 404 page*/}
-                        </Switch>
-                    </Router>
+    componentDidMount() {
+        let n = window.location.hostname.search("github");
+        if (n !== -1) {
+            this.setState({
+                initial_path: "/hack2_tink"
+            })
+        }
+    }
+
+    render() {
+        return (
+            <div className="wrapper">
+                <div className="sub-wrapper">
+                    <img src={phone} className={"image-back"} alt={"mobile"}/>
+                    <div className="phone-wrapper">
+                        <Router>
+                            <Switch>
+                                <Route exact path={this.state.initial_path + "/"}>
+                                    <WidgetPage/>
+                                </Route>
+                                <Route exact path={this.state.initial_path + "/save_money"}>
+                                    <SaveMoneyPage/>
+                                </Route>
+                                <Route exact path={this.state.initial_path + "/movies"}>
+                                    <MoviesPage/>
+                                </Route>
+                                <Route exact path={this.state.initial_path + "/books"}>
+
+                                </Route>
+                                <Route exact path={this.state.initial_path + "/articles"}>
+
+                                </Route>
+                                <Route exact path={"*"}>
+                                    <Page404/>
+                                </Route>
+                            </Switch>
+                        </Router>
+                    </div>
                 </div>
             </div>
-        </div>
-    );
+        )
+    }
+
 }
 
-export default App;

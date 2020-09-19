@@ -1,6 +1,5 @@
 import React from 'react';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faQuestionCircle} from "@fortawesome/free-solid-svg-icons";
 import './style.css';
 import Movie from "./Movie";
 
@@ -9,15 +8,15 @@ import Movie from "./Movie";
 import AvengersEndGame from "./Movie/data/home_movies/1_home.jpg";
 import JohnWickParabellum from "./Movie/data/home_movies/2_home.jpg";
 import Jocker from "./Movie/data/home_movies/3_home.jpg";
-import Parasite from "./Movie/data/home_movies/4_home.jpg";
-import SpiderMan from "./Movie/data/home_movies/5_home.jpg";
-import T34 from "./Movie/data/home_movies/6_home.jpg";
+// import Parasite from "./Movie/data/home_movies/4_home.jpg";
+// import SpiderMan from "./Movie/data/home_movies/5_home.jpg";
+// import T34 from "./Movie/data/home_movies/6_home.jpg";
 import Greenland from "./Movie/data/cinema_movies/1_cinema.jpg";
-import Ice2 from "./Movie/data/cinema_movies/2_cinema.jpg";
-import Tenet from "./Movie/data/cinema_movies/3_cinema.jpg";
+// import Ice2 from "./Movie/data/cinema_movies/2_cinema.jpg";
+// import Tenet from "./Movie/data/cinema_movies/3_cinema.jpg";
 import TheNewMurants from "./Movie/data/cinema_movies/4_cinema.jpg";
 import Unhinged from "./Movie/data/cinema_movies/5_cinema.jpg";
-import GoalkeeperOfGalaxy from "./Movie/data/cinema_movies/6_cinema.jpg";
+// import GoalkeeperOfGalaxy from "./Movie/data/cinema_movies/6_cinema.jpg";
 
 export default class MoviesPage extends React.Component {
     constructor(props) {
@@ -42,12 +41,6 @@ export default class MoviesPage extends React.Component {
                         </span>
                 </h1>
                 <div className="search-bar"><FontAwesomeIcon pull="left" color="#7f7e84" icon="search" /> Поиск</div>
-                {/*<div className="widget-container">*/}
-
-                {/*    <div className="button-holder">Movie</div>*/}
-                {/*    <div className="button-holder">placeholder-widget</div>*/}
-                {/*    <div className="button-holder">placeholder-widget</div>*/}
-                {/*    <div className="button-holder">placeholder-widget</div>*/}
 
                 <h2 className="category_name">В кино</h2>
                 <div className="movies_container">

@@ -8,6 +8,7 @@ export default class Widget extends React.Component {
         super(props);
 
         this.state = {
+            initial_path:""
         };
     }
 
@@ -16,7 +17,7 @@ export default class Widget extends React.Component {
     }
     changePage(){
         if (!this.props.disabled){
-            window.location.assign(this.props.link);
+            window.location.assign(this.state.initial_path+this.props.link);
         }
     }
 
