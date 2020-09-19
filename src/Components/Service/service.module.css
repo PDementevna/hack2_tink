@@ -1,0 +1,15 @@
+.service_button {
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+    border: none;
+    margin: 10px;
+    background-size: contain;
+
+}
+
+.service_text {
+    font-family: "Arial";
+    font-size: 10pt;
+    text-align: center;
+}

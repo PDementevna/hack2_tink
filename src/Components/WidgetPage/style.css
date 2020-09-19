@@ -1,0 +1,57 @@
+p.region {
+    cursor: pointer;
+    text-align: right;
+    margin-right: 10px;
+    color: blue;
+    font-size: medium;
+}
+
+h1.services {
+    cursor: default;
+    font-weight: bold;
+    margin: 20px 15px;
+}
+
+span.voice-widget {
+    cursor: pointer;
+}
+
+.search-bar {
+    color: #7f7e84;
+    cursor: text;
+    background-color: #e9e9ec;
+    font-size: large;
+    width: auto !important;
+    margin: 10px 15px;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.widget-container {
+    margin: 10px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: 120px;
+}
+
+.button-holder {
+    background-color: #c3c3c3;
+    border: #797979 1px solid;
+    border-radius: 15px;
+    padding: 5px;
+    align-items: center;
+    text-align: center;
+    vertical-align: center;
+
+    align-self: center;
+    justify-self: center;
+
+    width: 100px;
+    height: 100px;
+}
+
+h3.help {
+    text-align: center;
+}
