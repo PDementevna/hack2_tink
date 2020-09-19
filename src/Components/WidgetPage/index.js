@@ -37,11 +37,10 @@ export default class WidgetPage extends React.Component {
                 </h1>
                 <div className="search-bar"><FontAwesomeIcon pull="left" color="#7f7e84" icon="search" /> Поиск</div>
                 <div className="widget-container">
-                    <Widget link={"/todo"} image={invest_image}  text={"Как копить"}/>
-                    <Widget link={"/todo"} image={film_image} disabled={true} text={"Что смотреть"}/>
-                    <Widget link={"/todo"} image={book_image}  text={"Что читать"}/>
-                    <Widget link={"/todo"} image={cash_image}  text={"Статьи"}/>
-
+                    <Widget link={"/save_money"} image={invest_image}  text={"Как копить"}/>
+                    <Widget link={"/movies"} image={film_image}  text={"Что смотреть"}/>
+                    <Widget link={"/books"} image={book_image}  disabled={true} text={"Что читать"}/>
+                    <Widget link={"/articles"} image={cash_image} disabled={true} text={"Статьи"}/>
                 </div>
                 <h3 className="help"><FontAwesomeIcon icon={faQuestionCircle} color="#4a2cf0"/> Выберете доступный совет</h3>
             </div>

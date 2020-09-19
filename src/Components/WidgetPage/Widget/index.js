@@ -16,7 +16,7 @@ export default class Widget extends React.Component {
     }
     changePage(){
         if (!this.props.disabled){
-            window.location.replace(this.props.link);
+            window.location.assign(this.props.link);
         }
     }
 
