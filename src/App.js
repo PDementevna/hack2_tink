@@ -9,9 +9,9 @@ import {
 import phone from "./IPhone_X_vector.svg"
 import {library} from '@fortawesome/fontawesome-svg-core'
 import {
-    faCircle,
+    faCircle, faDollarSign, faEuroSign,
     faMicrophone,
-    faQuestionCircle,
+    faQuestionCircle, faRubleSign,
     faSearch
 } from '@fortawesome/free-solid-svg-icons'
 
@@ -21,7 +21,7 @@ import SaveMoneyPage from "./Components/SaveMoneyPage";
 import Page404 from "./Components/Page404";
 
 
-library.add(faMicrophone, faSearch, faCircle, faQuestionCircle)
+library.add(faMicrophone, faSearch, faCircle, faQuestionCircle ,faDollarSign, faEuroSign, faRubleSign)
 
 // const categories = ['Кино', 'Рестораны', 'Концерты', 'Путешествия', 'Топливо', 'Товары', 'Спорт', 'Страхование', 'Театр'];
 // <ServiceList categories={categories}></ServiceList>

@@ -67,8 +67,11 @@
     }
 }
 /*---------------------------*/
-.page-caption{
+.page-content{
     cursor: default;
-    font-weight: bold;
     margin: 30px 15px;
+}
+.page-caption{
+    font-weight: bold;
+    margin-bottom: 20px;
 }
