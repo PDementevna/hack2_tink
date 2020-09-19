@@ -18,6 +18,7 @@ import {
 
 import WidgetPage from "./Components/WidgetPage";
 import SaveMoneyPage from "./Components/SaveMoneyPage";
+import MoviesPage from "./Components/MoviesPage";
 
 
 library.add(faMicrophone, faSearch, faCircle, faQuestionCircle)
@@ -41,7 +42,7 @@ function App() {
                                 <SaveMoneyPage/>
                             </Route>
                             <Route exact path={"/movies"}>
-                                {/*insert here*/}
+                                <MoviesPage/>
                             </Route>
                             <Route exact path={"/books"}>
 
