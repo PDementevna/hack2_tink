@@ -17,11 +17,12 @@ import {
 
 
 import WidgetPage from "./Components/WidgetPage";
+import MoviesPage from "./Components/MoviesPage";
 
 
 library.add(faMicrophone, faSearch, faCircle, faQuestionCircle)
 
-const categories = ['Кино', 'Рестораны', 'Концерты', 'Путешествия', 'Топливо', 'Товары', 'Спорт', 'Страхование', 'Театр'];
+// const categories = ['Кино', 'Рестораны', 'Концерты', 'Путешествия', 'Топливо', 'Товары', 'Спорт', 'Страхование', 'Театр'];
 // <ServiceList categories={categories}></ServiceList>
 
 
@@ -33,8 +34,11 @@ function App() {
                 <div className="phone-wrapper">
                     <Router>
                         <Switch>
-                            <Route path="/">
+                            <Route path="/" component={WidgetPage}>
                                 <WidgetPage/>
+                            </Route>
+                            <Route path="/movies" component={MoviesPage}>
+                                <MoviesPage/>
                             </Route>
                             {/*more routers here + TODO 404 page*/}
                         </Switch>

@@ -2,6 +2,7 @@ import React from 'react';
 import './style.css'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faQuestionCircle} from "@fortawesome/free-solid-svg-icons";
+import { Link, BrowserRouter as Router, Route } from 'react-router-dom';
 
 
 
@@ -29,10 +30,14 @@ export default class WidgetPage extends React.Component {
                 </h1>
                 <div className="search-bar"><FontAwesomeIcon pull="left" color="#7f7e84" icon="search" /> Поиск</div>
                 <div className="widget-container">
-                    <div className="button-holder">placeholder-widget</div>
-                    <div className="button-holder">placeholder-widget</div>
-                    <div className="button-holder">placeholder-widget</div>
-                    <div className="button-holder">placeholder-widget</div>
+                    <Router>
+                        <Link to="/movies" className="button-holder">
+                            <div>Movie</div>
+                        </Link>
+                        <div className="button-holder">placeholder-widget</div>
+                        <div className="button-holder">placeholder-widget</div>
+                        <div className="button-holder">placeholder-widget</div>
+                    </Router>
 
 
                 </div>
