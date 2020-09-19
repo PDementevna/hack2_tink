@@ -1,0 +1,33 @@
+.widget-holder {
+    /*background-color: #c3c3c3;*/
+    /*border: #797979 1px solid;*/
+    padding: 0;
+    align-items: center;
+    text-align: center;
+    vertical-align: center;
+
+    align-self: center;
+    justify-self: center;
+
+    width: 120px;
+    height: 150px;
+    cursor: pointer;
+}
+
+div.widget {
+
+}
+
+p.widget {
+    font-weight: bold;
+
+}
+
+img.widget {
+    width: 100%;
+    border-radius: 15px;
+}
+div.widget-disabled{
+    filter: grayscale(100%);
+    cursor: default;
+}

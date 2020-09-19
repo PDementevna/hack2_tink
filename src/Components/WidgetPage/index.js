@@ -2,6 +2,14 @@ import React from 'react';
 import './style.css'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faQuestionCircle} from "@fortawesome/free-solid-svg-icons";
+import Widget from "./Widget";
+import book_image from "./data/book.svg";
+import film_image from "./data/film.svg";
+import invest_image from "./data/investments.svg";
+import cash_image from "./data/cashback.svg";
+
+
+// import film_img from ".data/film.svg"
 
 
 
@@ -29,11 +37,10 @@ export default class WidgetPage extends React.Component {
                 </h1>
                 <div className="search-bar"><FontAwesomeIcon pull="left" color="#7f7e84" icon="search" /> Поиск</div>
                 <div className="widget-container">
-                    <div className="button-holder">placeholder-widget</div>
-                    <div className="button-holder">placeholder-widget</div>
-                    <div className="button-holder">placeholder-widget</div>
-                    <div className="button-holder">placeholder-widget</div>
-
+                    <Widget link={"/todo"} image={invest_image}  text={"Как копить"}/>
+                    <Widget link={"/todo"} image={film_image} disabled={true} text={"Что смотреть"}/>
+                    <Widget link={"/todo"} image={book_image}  text={"Что читать"}/>
+                    <Widget link={"/todo"} image={cash_image}  text={"Статьи"}/>
 
                 </div>
                 <h3 className="help"><FontAwesomeIcon icon={faQuestionCircle} color="#4a2cf0"/> Выберете доступный совет</h3>
