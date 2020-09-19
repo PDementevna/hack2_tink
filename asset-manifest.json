@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/hack2_tink/static/css/main.a667b30b.chunk.css",
+    "main.js": "/hack2_tink/static/js/main.20fa787b.chunk.js",
+    "main.js.map": "/hack2_tink/static/js/main.20fa787b.chunk.js.map",
+    "runtime-main.js": "/hack2_tink/static/js/runtime-main.418ca1a0.js",
+    "runtime-main.js.map": "/hack2_tink/static/js/runtime-main.418ca1a0.js.map",
+    "static/js/2.295537f4.chunk.js": "/hack2_tink/static/js/2.295537f4.chunk.js",
+    "static/js/2.295537f4.chunk.js.map": "/hack2_tink/static/js/2.295537f4.chunk.js.map",
+    "index.html": "/hack2_tink/index.html",
+    "precache-manifest.6fcc08a968392bb4965f565893073ecb.js": "/hack2_tink/precache-manifest.6fcc08a968392bb4965f565893073ecb.js",
+    "service-worker.js": "/hack2_tink/service-worker.js",
+    "static/css/main.a667b30b.chunk.css.map": "/hack2_tink/static/css/main.a667b30b.chunk.css.map",
+    "static/js/2.295537f4.chunk.js.LICENSE.txt": "/hack2_tink/static/js/2.295537f4.chunk.js.LICENSE.txt",
+    "static/media/IPhone_X_vector.svg": "/hack2_tink/static/media/IPhone_X_vector.5afa0f31.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.418ca1a0.js",
+    "static/js/2.295537f4.chunk.js",
+    "static/css/main.a667b30b.chunk.css",
+    "static/js/main.20fa787b.chunk.js"
+  ]
+}
