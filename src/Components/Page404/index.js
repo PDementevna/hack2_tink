@@ -3,7 +3,7 @@ import './style.css'
 
 
 
-export default class SaveMoneyPage extends React.Component {
+export default class Page404 extends React.Component {
     constructor(props) {
         super(props);
 
@@ -18,7 +18,7 @@ export default class SaveMoneyPage extends React.Component {
     render() {
         return (
             <div>
-                <h1 className={"page-caption"}>Как копить</h1>
+                <h1 className={"page-caption"}>Страница не найдена</h1>
             </div>
         );
     }

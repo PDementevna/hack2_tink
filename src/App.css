@@ -49,7 +49,7 @@
     width: 400px;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 400px){
     .image-back{
         display: none;
     }
@@ -65,4 +65,10 @@
         width: 100vw !important;
         height: 88vh !important;
     }
+}
+/*---------------------------*/
+.page-caption{
+    cursor: default;
+    font-weight: bold;
+    margin: 30px 15px;
 }
