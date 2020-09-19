@@ -48,3 +48,21 @@
     min-height: 10em;
     width: 400px;
 }
+
+@media screen and (max-width: 500px){
+    .image-back{
+        display: none;
+    }
+    .phone-wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 30px;
+    }
+    .wrapper{
+        height: 88vh !important;
+    }
+    .sub-wrapper{
+        width: 100vw !important;
+        height: 88vh !important;
+    }
+}

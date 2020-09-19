@@ -21,7 +21,7 @@ import WidgetPage from "./Components/WidgetPage";
 
 library.add(faMicrophone, faSearch, faCircle, faQuestionCircle)
 
-const categories = ['Кино', 'Рестораны', 'Концерты', 'Путешествия', 'Топливо', 'Товары', 'Спорт', 'Страхование', 'Театр'];
+// const categories = ['Кино', 'Рестораны', 'Концерты', 'Путешествия', 'Топливо', 'Товары', 'Спорт', 'Страхование', 'Театр'];
 // <ServiceList categories={categories}></ServiceList>
 
 
