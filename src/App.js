@@ -19,12 +19,10 @@ import {
 import WidgetPage from "./Components/WidgetPage";
 import SaveMoneyPage from "./Components/SaveMoneyPage";
 import Page404 from "./Components/Page404";
+import MoviesPage from "./Components/MoviesPage";
 
 
-library.add(faMicrophone, faSearch, faCircle, faQuestionCircle ,faDollarSign, faEuroSign, faRubleSign)
-
-// const categories = ['Кино', 'Рестораны', 'Концерты', 'Путешествия', 'Топливо', 'Товары', 'Спорт', 'Страхование', 'Театр'];
-// <ServiceList categories={categories}></ServiceList>
+library.add(faMicrophone, faSearch, faCircle, faQuestionCircle, faDollarSign, faEuroSign, faRubleSign)
 
 
 export default class App extends React.Component {
@@ -32,52 +30,52 @@ export default class App extends React.Component {
         super(props);
 
         this.state = {
-            initial_path:""
+            initial_path: ""
         };
     }
+
     componentDidMount() {
         let n = window.location.hostname.search("github");
-        if (n!==-1){
+        if (n !== -1) {
             this.setState({
-                initial_path:"/hack2_tink"
+                initial_path: "/hack2_tink"
             })
         }
     }
 
     render() {
-        return(
+        return (
             <div className="wrapper">
                 <div className="sub-wrapper">
                     <img src={phone} className={"image-back"} alt={"mobile"}/>
                     <div className="phone-wrapper">
                         <Router>
                             <Switch>
-                                <Route exact path={this.state.initial_path+"/"}>
+                                <Route exact path={this.state.initial_path + "/"}>
                                     <WidgetPage/>
                                 </Route>
-                                <Route exact path={this.state.initial_path+"/save_money"}>
+                                <Route exact path={this.state.initial_path + "/save_money"}>
                                     <SaveMoneyPage/>
                                 </Route>
-                                <Route exact path={this.state.initial_path+"/movies"}>
-                                    {/*insert here*/}
+                                <Route exact path={this.state.initial_path + "/movies"}>
+                                    <MoviesPage/>
                                 </Route>
-                                <Route exact path={this.state.initial_path+"/books"}>
+                                <Route exact path={this.state.initial_path + "/books"}>
 
                                 </Route>
-                                <Route exact path={this.state.initial_path+"/articles"}>
+                                <Route exact path={this.state.initial_path + "/articles"}>
 
                                 </Route>
                                 <Route exact path={"*"}>
                                     <Page404/>
                                 </Route>
-                                {/*more routers here + TODO 404 page*/}
                             </Switch>
                         </Router>
                     </div>
                 </div>
             </div>
-        )    }
+        )
+    }
 
 }
 
-// export default App;
