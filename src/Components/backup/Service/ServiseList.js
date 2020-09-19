@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 import Service from './Service';
 import { Container, Row, Col } from 'reactstrap';
-import s from '../../servicesList.module.css';
-import img1 from '../WidgetPage/img/1.jpg';
-import img2 from '../WidgetPage/img/2.jpg';
-import img3 from '../WidgetPage/img/3.jpg';
+import s from '../../../servicesList.module.css';
+import img1 from '../img/1.jpg';
+import img2 from '../img/2.jpg';
+import img3 from '../img/3.jpg';
 
 class ServiceList extends Component {
     constructor(props) {
