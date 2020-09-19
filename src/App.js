@@ -16,8 +16,6 @@ import {
 } from '@fortawesome/free-solid-svg-icons'
 
 
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import Button from "./Components/EmptyButton";
 import WidgetPage from "./Components/WidgetPage";
 
 
