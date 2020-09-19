@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/hack2_tink/static/css/main.3eb782f9.chunk.css",
-    "main.js": "/hack2_tink/static/js/main.f67e1d44.chunk.js",
-    "main.js.map": "/hack2_tink/static/js/main.f67e1d44.chunk.js.map",
+    "main.js": "/hack2_tink/static/js/main.e0debef6.chunk.js",
+    "main.js.map": "/hack2_tink/static/js/main.e0debef6.chunk.js.map",
     "runtime-main.js": "/hack2_tink/static/js/runtime-main.418ca1a0.js",
     "runtime-main.js.map": "/hack2_tink/static/js/runtime-main.418ca1a0.js.map",
     "static/js/2.b8bdd726.chunk.js": "/hack2_tink/static/js/2.b8bdd726.chunk.js",
     "static/js/2.b8bdd726.chunk.js.map": "/hack2_tink/static/js/2.b8bdd726.chunk.js.map",
     "index.html": "/hack2_tink/index.html",
-    "precache-manifest.b0be53732de593fa92e5eb52c2022f48.js": "/hack2_tink/precache-manifest.b0be53732de593fa92e5eb52c2022f48.js",
+    "precache-manifest.46fa6f41e21fc0c9c3dfe2a92eb88105.js": "/hack2_tink/precache-manifest.46fa6f41e21fc0c9c3dfe2a92eb88105.js",
     "service-worker.js": "/hack2_tink/service-worker.js",
     "static/css/main.3eb782f9.chunk.css.map": "/hack2_tink/static/css/main.3eb782f9.chunk.css.map",
     "static/js/2.b8bdd726.chunk.js.LICENSE.txt": "/hack2_tink/static/js/2.b8bdd726.chunk.js.LICENSE.txt",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.418ca1a0.js",
     "static/js/2.b8bdd726.chunk.js",
     "static/css/main.3eb782f9.chunk.css",
-    "static/js/main.f67e1d44.chunk.js"
+    "static/js/main.e0debef6.chunk.js"
   ]
 }
