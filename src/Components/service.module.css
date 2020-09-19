@@ -5,4 +5,11 @@
     border: none;
     margin: 10px;
     background-size: contain;
+
+}
+
+.service_text {
+    font-family: "Arial";
+    font-size: 10pt;
+    text-align: center;
 }
